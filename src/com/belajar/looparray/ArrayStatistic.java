@@ -6,7 +6,7 @@ public class ArrayStatistic {
     static void main() {
         Scanner scanner = new Scanner(System.in);
 
-        System.out.println("═════════════ ARRAY STATISTIC ═════════════");
+        System.out.println("════════ ARRAY STATISTIC ════════");
         System.out.println("Enter a size of array: ");
         byte arraySize = scanner.nextByte();
 
