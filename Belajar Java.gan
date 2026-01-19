@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?><project name="Untitled Gantt Project" company="" webLink="http://" view-date="2026-01-18" view-index="0" gantt-divider-location="297" resource-divider-location="300" version="3.3.3322" locale="en_US">
+    <description/>
+    <view zooming-state="default:0" id="gantt-chart">
+        <field id="tpd3" name="Name" width="167" order="0"/>
+        <field id="tpd4" name="Begin date" width="65" order="1"/>
+        <field id="tpd5" name="End date" width="64" order="2"/>
+        <option id="filter.completedTasks" value="false"/>
+        <option id="filter.dueTodayTasks" value="false"/>
+        <option id="filter.overdueTasks" value="false"/>
+        <option id="filter.inProgressTodayTasks" value="false"/>
+    </view>
+    <view id="resource-table">
+        <field id="0" name="Name" width="210" order="0"/>
+        <field id="1" name="Default role" width="86" order="1"/>
+    </view>
+    <!-- -->
+    <calendars>
+        <day-types>
+            <day-type id="0"/>
+            <day-type id="1"/>
+            <default-week id="1" name="default" sun="0" mon="0" tue="0" wed="0" thu="0" fri="0" sat="0"/>
+            <only-show-weekends value="false"/>
+            <overriden-day-types/>
+            <days/>
+        </day-types>
+    </calendars>
+    <tasks empty-milestones="true">
+        <taskproperties>
+            <taskproperty id="tpd0" name="type" type="default" valuetype="icon"/>
+            <taskproperty id="tpd1" name="priority" type="default" valuetype="icon"/>
+            <taskproperty id="tpd2" name="info" type="default" valuetype="icon"/>
+            <taskproperty id="tpd3" name="name" type="default" valuetype="text"/>
+            <taskproperty id="tpd4" name="begindate" type="default" valuetype="date"/>
+            <taskproperty id="tpd5" name="enddate" type="default" valuetype="date"/>
+            <taskproperty id="tpd6" name="duration" type="default" valuetype="int"/>
+            <taskproperty id="tpd7" name="completion" type="default" valuetype="int"/>
+            <taskproperty id="tpd8" name="coordinator" type="default" valuetype="text"/>
+            <taskproperty id="tpd9" name="predecessorsr" type="default" valuetype="text"/>
+        </taskproperties>
+        <task id="0" uid="f9a7271775d64ceba8b655d53107a5d0" name="Belajar Basic Java" color="#8cb6ce" meeting="false" start="2026-01-07" duration="4" complete="100" thirdDate="2026-01-13" thirdDate-constraint="0" expand="true">
+            <notes><![CDATA[
+                - Type data
+- Deklarasi dan inisialisasi variable
+
+
+            ]]></notes>
+        </task>
+        <task id="21" uid="44e15b24bdf6458ab79eeec47b3d88ff" name="Loops &amp; Arrays" color="#8cb6ce" meeting="false" start="2026-01-11" duration="3" complete="100" thirdDate="2026-01-07" thirdDate-constraint="0" expand="false">
+            <task id="30" uid="a9699c80d3c14d6ea9a7456167ee8bff" name="Exercise 1: Array Statistics" color="#8cb6ce" meeting="false" start="2026-01-11" duration="1" complete="100" thirdDate="2026-01-07" thirdDate-constraint="0" expand="true"/>
+            <task id="32" uid="c98ff2ea91b648dfbd3357c85dbd4c55" name="Exercise 2: Student Grade System" color="#8cb6ce" meeting="false" start="2026-01-11" duration="1" complete="100" thirdDate="2026-01-07" thirdDate-constraint="0" expand="true"/>
+            <task id="38" uid="9eeb7acf973d46cf8077306142090c7f" name="Exercise 3: Simple Number Guessing Game" color="#8cb6ce" meeting="false" start="2026-01-12" duration="1" complete="100" thirdDate="2026-01-07" thirdDate-constraint="0" expand="true"/>
+            <task id="41" uid="b8313391fb264e159d2b6e783d1d5e10" name="Exercise 4: Pattern Printing" color="#8cb6ce" meeting="false" start="2026-01-12" duration="1" complete="100" thirdDate="2026-01-12" thirdDate-constraint="0" expand="true"/>
+            <task id="45" uid="037cbf55747c479e81ebfcddd9133497" name="Exercise 5: Shopping Cart" color="#8cb6ce" meeting="false" start="2026-01-13" duration="1" complete="100" thirdDate="2026-01-12" thirdDate-constraint="0" expand="true"/>
+        </task>
+        <task id="51" uid="c1544f91e28b4ffe90c55043b1ec2d17" name="Object-Oriented Programming (OOP)" color="#8cb6ce" meeting="false" start="2026-01-14" duration="4" complete="100" thirdDate="2026-01-14" thirdDate-constraint="0" expand="false">
+            <task id="53" uid="bbf967d3b98e4a59a137a12cafeca2f7" name="Introduction to OOP" color="#8cb6ce" meeting="false" start="2026-01-14" duration="1" complete="100" thirdDate="2026-01-09" thirdDate-constraint="0" expand="true"/>
+            <task id="54" uid="8c1dece8d0f34cfca00529da6813c955" name="Classes &amp; Objects" color="#8cb6ce" meeting="false" start="2026-01-14" duration="1" complete="100" thirdDate="2026-01-14" thirdDate-constraint="0" expand="true"/>
+            <task id="55" uid="6c977b7a9aa34eb0b23bb3724c9ed87f" name="Constructors" color="#8cb6ce" meeting="false" start="2026-01-14" duration="1" complete="100" thirdDate="2026-01-14" thirdDate-constraint="0" expand="true"/>
+            <task id="56" uid="9290b323befd4d24907738b7822dbd41" name="Encapsulation" color="#8cb6ce" meeting="false" start="2026-01-14" duration="1" complete="100" thirdDate="2026-01-14" thirdDate-constraint="0" expand="true"/>
+            <task id="57" uid="799f796e16b04456a81bfa13fe925b0b" name="Method Overloading" color="#8cb6ce" meeting="false" start="2026-01-14" duration="1" complete="100" thirdDate="2026-01-14" thirdDate-constraint="0" expand="true"/>
+            <task id="58" uid="559217c3d3cd441294cee13282fc7d1d" name="This Keyword" color="#8cb6ce" meeting="false" start="2026-01-14" duration="1" complete="100" thirdDate="2026-01-14" thirdDate-constraint="0" expand="true"/>
+            <task id="59" uid="569e0dc20ef64b469b400031b77f4db6" name="ToString Method" color="#8cb6ce" meeting="false" start="2026-01-14" duration="1" complete="100" thirdDate="2026-01-14" thirdDate-constraint="0" expand="true"/>
+            <task id="60" uid="1c82f71cf2a04e78abed4416af97f4a0" name="MINI PROJECT 3: Contact Management System" color="#8cb6ce" meeting="false" start="2026-01-14" duration="1" complete="100" thirdDate="2026-01-14" thirdDate-constraint="0" expand="true"/>
+            <task id="61" uid="4491516f808b4cba8ad983ff9d583b71" name="Exercise 1: Bank Account System" color="#8cb6ce" meeting="false" start="2026-01-15" duration="2" complete="100" thirdDate="2026-01-14" thirdDate-constraint="0" expand="true"/>
+            <task id="62" uid="f2aff951af3b45a6b41b9a245392718d" name="Exercise 2: Product Inventory" color="#8cb6ce" meeting="false" start="2026-01-17" duration="1" complete="100" thirdDate="2026-01-14" thirdDate-constraint="0" expand="true"/>
+            <task id="63" uid="86eaf20ad6e44527b01ad7bfb67f8e9b" name="Exercise 3: Library Book System" color="#8cb6ce" meeting="false" start="2026-01-17" duration="1" complete="100" thirdDate="2026-01-14" thirdDate-constraint="0" expand="true"/>
+            <task id="64" uid="74d06c92b5ca4e7f9152abd5a936ea74" name="Exercise 4: Employee Management" color="#8cb6ce" meeting="false" start="2026-01-17" duration="1" complete="100" thirdDate="2026-01-14" thirdDate-constraint="0" expand="true"/>
+            <task id="65" uid="32f267210a2944b1a974a9630b04b760" name="Exercise 5: Shopping Cart Advanced" color="#8cb6ce" meeting="false" start="2026-01-17" duration="1" complete="100" thirdDate="2026-01-14" thirdDate-constraint="0" expand="true"/>
+        </task>
+        <task id="66" uid="e8dca94421b24d1ab2dc58f7b4e17720" name="Collection Framework" meeting="false" start="2026-01-18" duration="1" complete="62" expand="true">
+            <task id="69" uid="9b199a747d0d449ca2f9b7ce99c404db" name="Introduction" meeting="false" start="2026-01-18" duration="1" complete="100" expand="true"/>
+            <task id="70" uid="e32ceff66d1343b69e8925a39848c17a" name="Array List - Dynamic Arrays" meeting="false" start="2026-01-18" duration="1" complete="100" expand="true"/>
+            <task id="71" uid="e1000aa4dcd84ed7be3f2f3caa76f0df" name="HashMap - Key-Value Pairs" meeting="false" start="2026-01-18" duration="1" complete="100" expand="true"/>
+            <task id="72" uid="49d5244b65e6486284b2818b483370a7" name="HashSet - Uniqua Value" meeting="false" start="2026-01-18" duration="1" complete="100" expand="true"/>
+            <task id="73" uid="1a76ed239458489d8d1029a55adcddbd" name="Collections Comparison" meeting="false" start="2026-01-18" duration="1" complete="100" expand="true"/>
+            <task id="74" uid="586b8d7a428b4f33ae2a5ea50b9d2b6c" name="Mini Project" meeting="false" start="2026-01-18" duration="1" complete="0" expand="true"/>
+            <task id="75" uid="19c28ea02b2a4301b3450ee494b8d9e8" name="Exercise 1 Phone Book" meeting="false" start="2026-01-18" duration="1" complete="0" expand="true"/>
+            <task id="76" uid="0021acfce64b4b768cd48d52c40725d2" name="Exercise 2 Word Frequency Counter" meeting="false" start="2026-01-18" duration="1" complete="0" expand="true"/>
+        </task>
+        <task id="67" uid="8efba923774d4b308283ec054823b232" name="Execption Handling &amp; File I_O" meeting="false" start="2026-01-19" duration="1" complete="0" expand="true"/>
+        <task id="68" uid="b258e8feb5974ca78adb2b1975111825" name="Advance OOP" meeting="false" start="2026-01-20" duration="1" complete="0" expand="true"/>
+    </tasks>
+    <resources/>
+    <allocations/>
+    <vacations/>
+    <previous/>
+    <roles roleset-name="Default"/>
+</project>
