@@ -27,10 +27,10 @@ class WordFrequency {
         System.out.println("\n╔════════════════════════╗");
         System.out.println("║ WORD FREQUENCY COUNTER ║");
         System.out.println("╠════════════════════════╣");
-        System.out.printf("║ %6s  ║  %5s \n", "STRING", "COUNT");
+        System.out.printf("║ %-10s %-5s \n", "STRING", "COUNT");
         System.out.println("╠════════════════════════╣");
         for (Map.Entry<String, Integer> entry : wordCount.entrySet()) {
-            System.out.printf("║ %s     %d \n", entry.getKey(), entry.getValue());
+            System.out.printf("║ %-10s %-5d \n", entry.getKey(), entry.getValue());
         }
         System.out.println("╚════════════════════════╝");
 

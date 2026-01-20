@@ -1,13 +1,9 @@
-<?xml version="1.0" encoding="UTF-8"?><project name="Untitled Gantt Project" company="" webLink="http://" view-date="2026-01-15" view-index="0" gantt-divider-location="294" resource-divider-location="300" version="3.3.3322" locale="en_US">
+<?xml version="1.0" encoding="UTF-8"?><project name="Untitled Gantt Project" company="" webLink="http://" view-date="2026-01-15" view-index="0" gantt-divider-location="294" resource-divider-location="300" version="2.8.11" locale="en_US">
     <description/>
     <view zooming-state="default:0" id="gantt-chart">
-        <field id="tpd3" name="Name" width="165" order="0"/>
+        <field id="tpd3" name="Name" width="163" order="0"/>
         <field id="tpd4" name="Begin date" width="64" order="1"/>
-        <field id="tpd5" name="End date" width="64" order="2"/>
-        <option id="filter.completedTasks" value="false"/>
-        <option id="filter.dueTodayTasks" value="false"/>
-        <option id="filter.overdueTasks" value="false"/>
-        <option id="filter.inProgressTodayTasks" value="false"/>
+        <field id="tpd5" name="End date" width="63" order="2"/>
     </view>
     <view id="resource-table">
         <field id="0" name="Name" width="210" order="0"/>
@@ -37,56 +33,58 @@
             <taskproperty id="tpd8" name="coordinator" type="default" valuetype="text"/>
             <taskproperty id="tpd9" name="predecessorsr" type="default" valuetype="text"/>
         </taskproperties>
-        <task id="0" uid="297d9ca9103342efba9d4aa30ac924cb" name="Belajar Basic Java" color="#8cb6ce" meeting="false" start="2026-01-07" duration="4" complete="100" thirdDate="2026-01-13" thirdDate-constraint="0" expand="true">
-            <notes><![CDATA[
+        <task id="0" name="Belajar Basic Java" color="#8cb6ce" meeting="false" start="2026-01-07" duration="4" complete="100" thirdDate="2026-01-13" thirdDate-constraint="0" expand="true">
+            <notes>
+                <![CDATA[
                 
                 - Type data
 - Deklarasi dan inisialisasi variable
 
 
             
-            ]]></notes>
+            ]]>
+            </notes>
         </task>
-        <task id="21" uid="407130873ada4bbfa4e2be6338429ef0" name="Loops &amp; Arrays" color="#8cb6ce" meeting="false" start="2026-01-11" duration="3" complete="100" thirdDate="2026-01-07" thirdDate-constraint="0" expand="false">
-            <task id="30" uid="ede77d4e8e6c48dfa234a640472b228a" name="Exercise 1: Array Statistics" color="#8cb6ce" meeting="false" start="2026-01-11" duration="1" complete="100" thirdDate="2026-01-07" thirdDate-constraint="0" expand="true"/>
-            <task id="32" uid="e0e26037236e420fb56a64ea4acbe98f" name="Exercise 2: Student Grade System" color="#8cb6ce" meeting="false" start="2026-01-11" duration="1" complete="100" thirdDate="2026-01-07" thirdDate-constraint="0" expand="true"/>
-            <task id="38" uid="f4d90aed19874fa39848c8510dc7280e" name="Exercise 3: Simple Number Guessing Game" color="#8cb6ce" meeting="false" start="2026-01-12" duration="1" complete="100" thirdDate="2026-01-07" thirdDate-constraint="0" expand="true"/>
-            <task id="41" uid="5cfd4517ce8d4742a34b49c43ff314f4" name="Exercise 4: Pattern Printing" color="#8cb6ce" meeting="false" start="2026-01-12" duration="1" complete="100" thirdDate="2026-01-12" thirdDate-constraint="0" expand="true"/>
-            <task id="45" uid="4411d21b694647afa8dd5e8087aa707c" name="Exercise 5: Shopping Cart" color="#8cb6ce" meeting="false" start="2026-01-13" duration="1" complete="100" thirdDate="2026-01-12" thirdDate-constraint="0" expand="true"/>
+        <task id="21" name="Loops &amp; Arrays" color="#8cb6ce" meeting="false" start="2026-01-11" duration="3" complete="100" thirdDate="2026-01-07" thirdDate-constraint="0" expand="false">
+            <task id="30" name="Exercise 1: Array Statistics" color="#8cb6ce" meeting="false" start="2026-01-11" duration="1" complete="100" thirdDate="2026-01-07" thirdDate-constraint="0" expand="true"/>
+            <task id="32" name="Exercise 2: Student Grade System" color="#8cb6ce" meeting="false" start="2026-01-11" duration="1" complete="100" thirdDate="2026-01-07" thirdDate-constraint="0" expand="true"/>
+            <task id="38" name="Exercise 3: Simple Number Guessing Game" color="#8cb6ce" meeting="false" start="2026-01-12" duration="1" complete="100" thirdDate="2026-01-07" thirdDate-constraint="0" expand="true"/>
+            <task id="41" name="Exercise 4: Pattern Printing" color="#8cb6ce" meeting="false" start="2026-01-12" duration="1" complete="100" thirdDate="2026-01-12" thirdDate-constraint="0" expand="true"/>
+            <task id="45" name="Exercise 5: Shopping Cart" color="#8cb6ce" meeting="false" start="2026-01-13" duration="1" complete="100" thirdDate="2026-01-12" thirdDate-constraint="0" expand="true"/>
         </task>
-        <task id="51" uid="2afd64d10868407e9d886e8b71c77d8d" name="Object-Oriented Programming (OOP)" color="#8cb6ce" meeting="false" start="2026-01-14" duration="4" complete="100" thirdDate="2026-01-14" thirdDate-constraint="0" expand="false">
-            <task id="53" uid="53d42006b54c45f387844441d3545f7e" name="Introduction to OOP" color="#8cb6ce" meeting="false" start="2026-01-14" duration="1" complete="100" thirdDate="2026-01-09" thirdDate-constraint="0" expand="true"/>
-            <task id="54" uid="3b99379dde8a47e4bde19ded79d95b41" name="Classes &amp; Objects" color="#8cb6ce" meeting="false" start="2026-01-14" duration="1" complete="100" thirdDate="2026-01-14" thirdDate-constraint="0" expand="true"/>
-            <task id="55" uid="cc0cdfbb6d0c451da49bce793fc17bd3" name="Constructors" color="#8cb6ce" meeting="false" start="2026-01-14" duration="1" complete="100" thirdDate="2026-01-14" thirdDate-constraint="0" expand="true"/>
-            <task id="56" uid="395efde90b804344a81c0cc7b464a948" name="Encapsulation" color="#8cb6ce" meeting="false" start="2026-01-14" duration="1" complete="100" thirdDate="2026-01-14" thirdDate-constraint="0" expand="true"/>
-            <task id="57" uid="ee4558c49bec45879f6078ad74cd90dd" name="Method Overloading" color="#8cb6ce" meeting="false" start="2026-01-14" duration="1" complete="100" thirdDate="2026-01-14" thirdDate-constraint="0" expand="true"/>
-            <task id="58" uid="7553d40047d34b908a39ec76c47a9477" name="This Keyword" color="#8cb6ce" meeting="false" start="2026-01-14" duration="1" complete="100" thirdDate="2026-01-14" thirdDate-constraint="0" expand="true"/>
-            <task id="59" uid="cfadf5e0fbac459eb5ada47eff3deaf1" name="ToString Method" color="#8cb6ce" meeting="false" start="2026-01-14" duration="1" complete="100" thirdDate="2026-01-14" thirdDate-constraint="0" expand="true"/>
-            <task id="60" uid="deafa965d80444d3b9d74839a718a863" name="MINI PROJECT 3: Contact Management System" color="#8cb6ce" meeting="false" start="2026-01-14" duration="1" complete="100" thirdDate="2026-01-14" thirdDate-constraint="0" expand="true"/>
-            <task id="61" uid="e8bc3cb27e1d4115a7fcbfc0baac7c90" name="Exercise 1: Bank Account System" color="#8cb6ce" meeting="false" start="2026-01-15" duration="2" complete="100" thirdDate="2026-01-14" thirdDate-constraint="0" expand="true"/>
-            <task id="62" uid="3f77d10024994fdd9315089381125610" name="Exercise 2: Product Inventory" color="#8cb6ce" meeting="false" start="2026-01-17" duration="1" complete="100" thirdDate="2026-01-14" thirdDate-constraint="0" expand="true"/>
-            <task id="63" uid="6a19461d196645729f8d14fe6f9d89e3" name="Exercise 3: Library Book System" color="#8cb6ce" meeting="false" start="2026-01-17" duration="1" complete="100" thirdDate="2026-01-14" thirdDate-constraint="0" expand="true"/>
-            <task id="64" uid="23a71248b4214534a3ba7759b51a32b2" name="Exercise 4: Employee Management" color="#8cb6ce" meeting="false" start="2026-01-17" duration="1" complete="100" thirdDate="2026-01-14" thirdDate-constraint="0" expand="true"/>
-            <task id="65" uid="d1d721b992f841339d185ea67698ec95" name="Exercise 5: Shopping Cart Advanced" color="#8cb6ce" meeting="false" start="2026-01-17" duration="1" complete="100" thirdDate="2026-01-14" thirdDate-constraint="0" expand="true"/>
+        <task id="51" name="Object-Oriented Programming (OOP)" color="#8cb6ce" meeting="false" start="2026-01-14" duration="4" complete="100" thirdDate="2026-01-14" thirdDate-constraint="0" expand="false">
+            <task id="53" name="Introduction to OOP" color="#8cb6ce" meeting="false" start="2026-01-14" duration="1" complete="100" thirdDate="2026-01-09" thirdDate-constraint="0" expand="true"/>
+            <task id="54" name="Classes &amp; Objects" color="#8cb6ce" meeting="false" start="2026-01-14" duration="1" complete="100" thirdDate="2026-01-14" thirdDate-constraint="0" expand="true"/>
+            <task id="55" name="Constructors" color="#8cb6ce" meeting="false" start="2026-01-14" duration="1" complete="100" thirdDate="2026-01-14" thirdDate-constraint="0" expand="true"/>
+            <task id="56" name="Encapsulation" color="#8cb6ce" meeting="false" start="2026-01-14" duration="1" complete="100" thirdDate="2026-01-14" thirdDate-constraint="0" expand="true"/>
+            <task id="57" name="Method Overloading" color="#8cb6ce" meeting="false" start="2026-01-14" duration="1" complete="100" thirdDate="2026-01-14" thirdDate-constraint="0" expand="true"/>
+            <task id="58" name="This Keyword" color="#8cb6ce" meeting="false" start="2026-01-14" duration="1" complete="100" thirdDate="2026-01-14" thirdDate-constraint="0" expand="true"/>
+            <task id="59" name="ToString Method" color="#8cb6ce" meeting="false" start="2026-01-14" duration="1" complete="100" thirdDate="2026-01-14" thirdDate-constraint="0" expand="true"/>
+            <task id="60" name="MINI PROJECT 3: Contact Management System" color="#8cb6ce" meeting="false" start="2026-01-14" duration="1" complete="100" thirdDate="2026-01-14" thirdDate-constraint="0" expand="true"/>
+            <task id="61" name="Exercise 1: Bank Account System" color="#8cb6ce" meeting="false" start="2026-01-15" duration="2" complete="100" thirdDate="2026-01-14" thirdDate-constraint="0" expand="true"/>
+            <task id="62" name="Exercise 2: Product Inventory" color="#8cb6ce" meeting="false" start="2026-01-17" duration="1" complete="100" thirdDate="2026-01-14" thirdDate-constraint="0" expand="true"/>
+            <task id="63" name="Exercise 3: Library Book System" color="#8cb6ce" meeting="false" start="2026-01-17" duration="1" complete="100" thirdDate="2026-01-14" thirdDate-constraint="0" expand="true"/>
+            <task id="64" name="Exercise 4: Employee Management" color="#8cb6ce" meeting="false" start="2026-01-17" duration="1" complete="100" thirdDate="2026-01-14" thirdDate-constraint="0" expand="true"/>
+            <task id="65" name="Exercise 5: Shopping Cart Advanced" color="#8cb6ce" meeting="false" start="2026-01-17" duration="1" complete="100" thirdDate="2026-01-14" thirdDate-constraint="0" expand="true"/>
         </task>
-        <task id="66" uid="800426ec88b54e98ac7677b3aaee25ca" name="Collection Framework" meeting="false" start="2026-01-18" duration="3" complete="72" expand="true">
+        <task id="66" name="Collection Framework" meeting="false" start="2026-01-18" duration="3" complete="72" expand="true">
             <depend id="67" type="2" difference="0" hardness="Strong"/>
-            <task id="69" uid="bee1057f22b643d48fcef5c220c2ae6c" name="Introduction" meeting="false" start="2026-01-18" duration="1" complete="100" expand="true"/>
-            <task id="70" uid="3eddf5596db344638587c4e725f34215" name="Array List - Dynamic Arrays" meeting="false" start="2026-01-18" duration="1" complete="100" expand="true"/>
-            <task id="71" uid="3a24205133fb483abcdb044c1234a064" name="HashMap - Key-Value Pairs" meeting="false" start="2026-01-18" duration="1" complete="100" expand="true"/>
-            <task id="72" uid="d4027993250842438266f4300a2d74de" name="HashSet - Uniqua Value" meeting="false" start="2026-01-18" duration="1" complete="100" expand="true"/>
-            <task id="73" uid="97a573072dc7457baff07aaad7e1b6ad" name="Collections Comparison" meeting="false" start="2026-01-18" duration="1" complete="100" expand="true"/>
-            <task id="74" uid="d1eae6235598418e8dc87da044341a6d" name="Mini Project" color="#8cb6ce" meeting="false" start="2026-01-18" duration="1" complete="100" thirdDate="2026-01-18" thirdDate-constraint="0" expand="true"/>
-            <task id="75" uid="c6da8205e2774bd88e444ac092ad4c21" name="Exercise 1 Phone Book" color="#8cb6ce" meeting="false" start="2026-01-19" duration="1" complete="100" thirdDate="2026-01-18" thirdDate-constraint="0" expand="true"/>
-            <task id="76" uid="2af7e3a75eea48c9b7130e99f1ebab37" name="Exercise 2 Word Frequency Counter" color="#8cb6ce" meeting="false" start="2026-01-19" duration="1" complete="100" thirdDate="2026-01-18" thirdDate-constraint="0" expand="true"/>
-            <task id="77" uid="ac5f8a0230c54f91a0f167e91639a624" name="Exercise 3" meeting="false" start="2026-01-20" duration="1" complete="0" expand="true"/>
-            <task id="78" uid="642a0e6ece954f7782d32a12ea31269e" name="Exercise 4" meeting="false" start="2026-01-20" duration="1" complete="0" expand="true"/>
-            <task id="79" uid="25e16c34e92d47e4a6a175e03eb6d1b1" name="Exercise 5" meeting="false" start="2026-01-20" duration="1" complete="0" expand="true"/>
+            <task id="69" name="Introduction" meeting="false" start="2026-01-18" duration="1" complete="100" expand="true"/>
+            <task id="70" name="Array List - Dynamic Arrays" meeting="false" start="2026-01-18" duration="1" complete="100" expand="true"/>
+            <task id="71" name="HashMap - Key-Value Pairs" meeting="false" start="2026-01-18" duration="1" complete="100" expand="true"/>
+            <task id="72" name="HashSet - Uniqua Value" meeting="false" start="2026-01-18" duration="1" complete="100" expand="true"/>
+            <task id="73" name="Collections Comparison" meeting="false" start="2026-01-18" duration="1" complete="100" expand="true"/>
+            <task id="74" name="Mini Project" color="#8cb6ce" meeting="false" start="2026-01-18" duration="1" complete="100" thirdDate="2026-01-18" thirdDate-constraint="0" expand="true"/>
+            <task id="75" name="Exercise 1 Phone Book" color="#8cb6ce" meeting="false" start="2026-01-19" duration="1" complete="100" thirdDate="2026-01-18" thirdDate-constraint="0" expand="true"/>
+            <task id="76" name="Exercise 2 Word Frequency Counter" color="#8cb6ce" meeting="false" start="2026-01-19" duration="1" complete="100" thirdDate="2026-01-18" thirdDate-constraint="0" expand="true"/>
+            <task id="77" name="Exercise 3 Unique Student IDs" color="#8cb6ce" meeting="false" start="2026-01-20" duration="1" complete="0" thirdDate="2026-01-20" thirdDate-constraint="0" expand="true"/>
+            <task id="78" name="Exercise 4 Shopping Cart with Products" color="#8cb6ce" meeting="false" start="2026-01-20" duration="1" complete="0" thirdDate="2026-01-20" thirdDate-constraint="0" expand="true"/>
+            <task id="79" name="Exercise 5  Inventory System" color="#8cb6ce" meeting="false" start="2026-01-20" duration="1" complete="0" thirdDate="2026-01-20" thirdDate-constraint="0" expand="true"/>
         </task>
-        <task id="67" uid="981a52b80a8c4c95b8676b050d4cab21" name="Execption Handling &amp; File I_O" color="#8cb6ce" meeting="false" start="2026-01-21" duration="1" complete="0" thirdDate="2026-01-19" thirdDate-constraint="0" expand="true">
+        <task id="67" name="Execption Handling &amp; File I_O" color="#8cb6ce" meeting="false" start="2026-01-21" duration="1" complete="0" thirdDate="2026-01-19" thirdDate-constraint="0" expand="true">
             <depend id="68" type="2" difference="0" hardness="Strong"/>
         </task>
-        <task id="68" uid="ae2a892059684b4a9099ad85d1befbe1" name="Advance OOP" color="#8cb6ce" meeting="false" start="2026-01-22" duration="1" complete="0" thirdDate="2026-01-20" thirdDate-constraint="0" expand="true"/>
+        <task id="68" name="Advance OOP" color="#8cb6ce" meeting="false" start="2026-01-22" duration="1" complete="0" thirdDate="2026-01-20" thirdDate-constraint="0" expand="true"/>
     </tasks>
     <resources/>
     <allocations/>
