@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?><project name="Untitled Gantt Project" company="" webLink="http://" view-date="2026-01-15" view-index="0" gantt-divider-location="294" resource-divider-location="300" version="2.8.11" locale="en_US">
     <description/>
     <view zooming-state="default:0" id="gantt-chart">
-        <field id="tpd3" name="Name" width="163" order="0"/>
-        <field id="tpd4" name="Begin date" width="64" order="1"/>
-        <field id="tpd5" name="End date" width="63" order="2"/>
+        <field id="tpd3" name="Name" width="159" order="0"/>
+        <field id="tpd4" name="Begin date" width="66" order="1"/>
+        <field id="tpd5" name="End date" width="65" order="2"/>
     </view>
     <view id="resource-table">
         <field id="0" name="Name" width="210" order="0"/>
@@ -67,7 +67,7 @@
             <task id="64" name="Exercise 4: Employee Management" color="#8cb6ce" meeting="false" start="2026-01-17" duration="1" complete="100" thirdDate="2026-01-14" thirdDate-constraint="0" expand="true"/>
             <task id="65" name="Exercise 5: Shopping Cart Advanced" color="#8cb6ce" meeting="false" start="2026-01-17" duration="1" complete="100" thirdDate="2026-01-14" thirdDate-constraint="0" expand="true"/>
         </task>
-        <task id="66" name="Collection Framework" meeting="false" start="2026-01-18" duration="3" complete="72" expand="true">
+        <task id="66" name="Collection Framework" meeting="false" start="2026-01-18" duration="3" complete="90" expand="true">
             <depend id="67" type="2" difference="0" hardness="Strong"/>
             <task id="69" name="Introduction" meeting="false" start="2026-01-18" duration="1" complete="100" expand="true"/>
             <task id="70" name="Array List - Dynamic Arrays" meeting="false" start="2026-01-18" duration="1" complete="100" expand="true"/>
@@ -77,14 +77,32 @@
             <task id="74" name="Mini Project" color="#8cb6ce" meeting="false" start="2026-01-18" duration="1" complete="100" thirdDate="2026-01-18" thirdDate-constraint="0" expand="true"/>
             <task id="75" name="Exercise 1 Phone Book" color="#8cb6ce" meeting="false" start="2026-01-19" duration="1" complete="100" thirdDate="2026-01-18" thirdDate-constraint="0" expand="true"/>
             <task id="76" name="Exercise 2 Word Frequency Counter" color="#8cb6ce" meeting="false" start="2026-01-19" duration="1" complete="100" thirdDate="2026-01-18" thirdDate-constraint="0" expand="true"/>
-            <task id="77" name="Exercise 3 Unique Student IDs" color="#8cb6ce" meeting="false" start="2026-01-20" duration="1" complete="0" thirdDate="2026-01-20" thirdDate-constraint="0" expand="true"/>
-            <task id="78" name="Exercise 4 Shopping Cart with Products" color="#8cb6ce" meeting="false" start="2026-01-20" duration="1" complete="0" thirdDate="2026-01-20" thirdDate-constraint="0" expand="true"/>
+            <task id="77" name="Exercise 3 Unique Student IDs" color="#8cb6ce" meeting="false" start="2026-01-20" duration="1" complete="100" thirdDate="2026-01-20" thirdDate-constraint="0" expand="true"/>
+            <task id="78" name="Exercise 4 Shopping Cart with Products" color="#8cb6ce" meeting="false" start="2026-01-20" duration="1" complete="100" thirdDate="2026-01-20" thirdDate-constraint="0" expand="true"/>
             <task id="79" name="Exercise 5  Inventory System" color="#8cb6ce" meeting="false" start="2026-01-20" duration="1" complete="0" thirdDate="2026-01-20" thirdDate-constraint="0" expand="true"/>
         </task>
-        <task id="67" name="Execption Handling &amp; File I_O" color="#8cb6ce" meeting="false" start="2026-01-21" duration="1" complete="0" thirdDate="2026-01-19" thirdDate-constraint="0" expand="true">
+        <task id="67" name="Execption Handling &amp; File I_O" color="#8cb6ce" meeting="false" start="2026-01-21" duration="4" complete="0" thirdDate="2026-01-19" thirdDate-constraint="0" expand="false">
             <depend id="68" type="2" difference="0" hardness="Strong"/>
+            <task id="114" name="1.0 Exception" meeting="false" start="2026-01-21" duration="1" complete="0" expand="true">
+                <task id="120" name="1.1 Pengenalan Exception" color="#8cb6ce" meeting="false" start="2026-01-21" duration="1" complete="0" thirdDate="2026-01-21" thirdDate-constraint="0" expand="true"/>
+                <task id="121" name="1.2 Try-Catch-Finally" meeting="false" start="2026-01-21" duration="1" complete="0" expand="true"/>
+                <task id="122" name="1.3 Melempar Exception" meeting="false" start="2026-01-21" duration="1" complete="0" expand="true"/>
+                <task id="123" name="1.4 Custom Exception" meeting="false" start="2026-01-21" duration="1" complete="0" expand="true"/>
+            </task>
+            <task id="98" name="2.1 File I/O" color="#8cb6ce" meeting="false" start="2026-01-22" duration="1" complete="0" thirdDate="2026-01-21" thirdDate-constraint="0" expand="true">
+                <task id="127" name="2.1 Dasar-Dasar File I/O" color="#8cb6ce" meeting="false" start="2026-01-22" duration="1" complete="0" thirdDate="2026-01-21" thirdDate-constraint="0" expand="true"/>
+                <task id="128" name="2.2 Membaca File" color="#8cb6ce" meeting="false" start="2026-01-22" duration="1" complete="0" thirdDate="2026-01-21" thirdDate-constraint="0" expand="true"/>
+                <task id="130" name="2.3 Menulis File" color="#8cb6ce" meeting="false" start="2026-01-22" duration="1" complete="0" thirdDate="2026-01-21" thirdDate-constraint="0" expand="true"/>
+                <task id="132" name="2.4 Penanganan File CSV" color="#8cb6ce" meeting="false" start="2026-01-22" duration="1" complete="0" thirdDate="2026-01-21" thirdDate-constraint="0" expand="true"/>
+            </task>
+            <task id="134" name="Mini Project Expense Tracker" color="#8cb6ce" meeting="false" start="2026-01-23" duration="1" complete="0" thirdDate="2026-01-21" thirdDate-constraint="0" expand="true"/>
+            <task id="136" name="Exercise 1 Kalkulator Amana" color="#8cb6ce" meeting="false" start="2026-01-23" duration="1" complete="0" thirdDate="2026-01-21" thirdDate-constraint="0" expand="true"/>
+            <task id="138" name="Exercise 2 Validator Umur" color="#8cb6ce" meeting="false" start="2026-01-23" duration="1" complete="0" thirdDate="2026-01-21" thirdDate-constraint="0" expand="true"/>
+            <task id="140" name="Exercise 3 Penghitung Kata File" color="#8cb6ce" meeting="false" start="2026-01-24" duration="1" complete="0" thirdDate="2026-01-21" thirdDate-constraint="0" expand="true"/>
+            <task id="142" name="Exercise 4 Data Siswa Dengan File" color="#8cb6ce" meeting="false" start="2026-01-24" duration="1" complete="0" thirdDate="2026-01-21" thirdDate-constraint="0" expand="true"/>
+            <task id="144" name="Exercise 5 Daftar Belanja dengan Persistence" color="#8cb6ce" meeting="false" start="2026-01-24" duration="1" complete="0" thirdDate="2026-01-21" thirdDate-constraint="0" expand="true"/>
         </task>
-        <task id="68" name="Advance OOP" color="#8cb6ce" meeting="false" start="2026-01-22" duration="1" complete="0" thirdDate="2026-01-20" thirdDate-constraint="0" expand="true"/>
+        <task id="68" name="Advance OOP" color="#8cb6ce" meeting="false" start="2026-01-25" duration="1" complete="0" thirdDate="2026-01-20" thirdDate-constraint="0" expand="true"/>
     </tasks>
     <resources/>
     <allocations/>
