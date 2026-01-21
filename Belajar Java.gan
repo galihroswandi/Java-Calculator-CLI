@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><project name="Untitled Gantt Project" company="" webLink="http://" view-date="2026-01-17" view-index="0" gantt-divider-location="306" resource-divider-location="300" version="3.3.3316" locale="en_US">
+<?xml version="1.0" encoding="UTF-8"?><project name="Untitled Gantt Project" company="" webLink="http://" view-date="2026-01-17" view-index="0" gantt-divider-location="291" resource-divider-location="300" version="3.3.3316" locale="en_US">
     <description/>
     <view zooming-state="default:0" id="gantt-chart">
         <field id="tpd3" name="Name" width="159" order="0"/>
@@ -71,7 +71,7 @@
             <task id="64" uid="8f58bae42fd64df2ab2895ac204c116f" name="Exercise 4: Employee Management" color="#8cb6ce" meeting="false" start="2026-01-17" duration="1" complete="100" thirdDate="2026-01-14" thirdDate-constraint="0" expand="true"/>
             <task id="65" uid="825f037fac6d4faea6b27a0e1709bd7e" name="Exercise 5: Shopping Cart Advanced" color="#8cb6ce" meeting="false" start="2026-01-17" duration="1" complete="100" thirdDate="2026-01-14" thirdDate-constraint="0" expand="true"/>
         </task>
-        <task id="66" uid="022cf5e6d6b24bb58850ce9a1301f832" name="Collection Framework" meeting="false" start="2026-01-18" duration="3" complete="90" expand="true">
+        <task id="66" uid="022cf5e6d6b24bb58850ce9a1301f832" name="Collection Framework" meeting="false" start="2026-01-18" duration="4" complete="100" expand="true">
             <depend id="67" type="2" difference="0" hardness="Strong"/>
             <task id="69" uid="ddb867b38e6149cba21f283a9cfee644" name="Introduction" meeting="false" start="2026-01-18" duration="1" complete="100" expand="true"/>
             <task id="70" uid="4517baeff59142dcbdeb3c120276de96" name="Array List - Dynamic Arrays" meeting="false" start="2026-01-18" duration="1" complete="100" expand="true"/>
@@ -83,15 +83,15 @@
             <task id="76" uid="1fdac79fe1884fd6bfbd96a88081fdb4" name="Exercise 2 Word Frequency Counter" color="#8cb6ce" meeting="false" start="2026-01-19" duration="1" complete="100" thirdDate="2026-01-18" thirdDate-constraint="0" expand="true"/>
             <task id="77" uid="c73aae6f044a44e58ddb0b96b4715d03" name="Exercise 3 Unique Student IDs" color="#8cb6ce" meeting="false" start="2026-01-20" duration="1" complete="100" thirdDate="2026-01-20" thirdDate-constraint="0" expand="true"/>
             <task id="78" uid="da496d8db1604977b6ef6fc6979a7d82" name="Exercise 4 Shopping Cart with Products" color="#8cb6ce" meeting="false" start="2026-01-20" duration="1" complete="100" thirdDate="2026-01-20" thirdDate-constraint="0" expand="true"/>
-            <task id="79" uid="69b2bcd8c966441a9f2885e96700aec4" name="Exercise 5  Inventory System" color="#8cb6ce" meeting="false" start="2026-01-20" duration="1" complete="0" thirdDate="2026-01-20" thirdDate-constraint="0" expand="true"/>
+            <task id="79" uid="69b2bcd8c966441a9f2885e96700aec4" name="Exercise 5  Inventory System" color="#8cb6ce" meeting="false" start="2026-01-21" duration="1" complete="100" thirdDate="2026-01-20" thirdDate-constraint="0" expand="true"/>
         </task>
-        <task id="67" uid="dcb526bcf68c4d618338399fd4460c2b" name="Execption Handling &amp; File I_O" color="#8cb6ce" meeting="false" start="2026-01-21" duration="4" complete="0" thirdDate="2026-01-19" thirdDate-constraint="0" expand="false">
+        <task id="67" uid="dcb526bcf68c4d618338399fd4460c2b" name="Execption Handling &amp; File I_O" color="#8cb6ce" meeting="false" start="2026-01-22" duration="3" complete="0" thirdDate="2026-01-19" thirdDate-constraint="0" expand="false">
             <depend id="68" type="2" difference="0" hardness="Strong"/>
-            <task id="114" uid="43181da5d9e54104a0fb423883d252d7" name="1.0 Exception" meeting="false" start="2026-01-21" duration="1" complete="0" expand="true">
-                <task id="120" uid="defba1a475b4403c80409645c3fbd6ba" name="1.1 Pengenalan Exception" color="#8cb6ce" meeting="false" start="2026-01-21" duration="1" complete="0" thirdDate="2026-01-21" thirdDate-constraint="0" expand="true"/>
-                <task id="121" uid="69d62695226449e79f8855afbabe4929" name="1.2 Try-Catch-Finally" meeting="false" start="2026-01-21" duration="1" complete="0" expand="true"/>
-                <task id="122" uid="d9a43d29f0114051bde3fced1f55a1a0" name="1.3 Melempar Exception" meeting="false" start="2026-01-21" duration="1" complete="0" expand="true"/>
-                <task id="123" uid="f79446c286a94a989731d1d74671b00b" name="1.4 Custom Exception" meeting="false" start="2026-01-21" duration="1" complete="0" expand="true"/>
+            <task id="114" uid="43181da5d9e54104a0fb423883d252d7" name="1.0 Exception" meeting="false" start="2026-01-22" duration="1" complete="0" expand="true">
+                <task id="120" uid="defba1a475b4403c80409645c3fbd6ba" name="1.1 Pengenalan Exception" color="#8cb6ce" meeting="false" start="2026-01-22" duration="1" complete="0" thirdDate="2026-01-21" thirdDate-constraint="0" expand="true"/>
+                <task id="121" uid="69d62695226449e79f8855afbabe4929" name="1.2 Try-Catch-Finally" meeting="false" start="2026-01-22" duration="1" complete="0" expand="true"/>
+                <task id="122" uid="d9a43d29f0114051bde3fced1f55a1a0" name="1.3 Melempar Exception" meeting="false" start="2026-01-22" duration="1" complete="0" expand="true"/>
+                <task id="123" uid="f79446c286a94a989731d1d74671b00b" name="1.4 Custom Exception" meeting="false" start="2026-01-22" duration="1" complete="0" expand="true"/>
             </task>
             <task id="98" uid="79c12ceead2f46288ada36d8938223e1" name="2.1 File I/O" color="#8cb6ce" meeting="false" start="2026-01-22" duration="1" complete="0" thirdDate="2026-01-21" thirdDate-constraint="0" expand="true">
                 <task id="127" uid="46b1712f58764b35a274cb1ec4f340f3" name="2.1 Dasar-Dasar File I/O" color="#8cb6ce" meeting="false" start="2026-01-22" duration="1" complete="0" thirdDate="2026-01-21" thirdDate-constraint="0" expand="true"/>
