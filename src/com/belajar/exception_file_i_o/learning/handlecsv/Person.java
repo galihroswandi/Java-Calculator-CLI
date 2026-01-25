@@ -1,9 +1,14 @@
 package com.belajar.exception_file_i_o.learning.handlecsv;
 
+import java.nio.file.Path;
+import java.nio.file.Paths;
+
 public class Person {
     String name;
     int age;
     String city;
+    private static final Path DATA_DIR = Paths.get("data");
+    private static final Path CSV_FILE = DATA_DIR.resolve("person.csv");
 
     public static void main(String[] args) {
         // // Create to CSV
@@ -11,7 +16,7 @@ public class Person {
         // persons.add(new Person("John", 25, "NYC"));
         // persons.add(new Person("Jane", 30, "London"));
 
-        // try (PrintWriter writer = new PrintWriter("person.csv")) {
+        // try (PrintWriter writer = new PrintWriter(CSV_FILE.toFile())) {
         // writer.println("Name,Age,City");
         // for (Person p : persons) {
         // writer.println(p.toCsv());
@@ -20,7 +25,7 @@ public class Person {
         // e.printStackTrace();
         // }
 
-        // Read from CSV
+        // // Read from CSV
         // ArrayList<Person> personLoad = new ArrayList<>();
         // try (BufferedReader reader = new BufferedReader(new
         // FileReader("person.csv"))) {
