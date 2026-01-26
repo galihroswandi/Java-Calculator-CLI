@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><project name="Untitled Gantt Project" company="" webLink="http://" view-date="2026-01-22" view-index="0" gantt-divider-location="291" resource-divider-location="300" version="3.3.3322" locale="en_US">
+<?xml version="1.0" encoding="UTF-8"?><project name="Untitled Gantt Project" company="" webLink="http://" view-date="2026-01-22" view-index="0" gantt-divider-location="291" resource-divider-location="300" version="3.3.3316" locale="en_US">
     <description/>
     <view zooming-state="default:0" id="gantt-chart">
         <field id="tpd3" name="Name" width="159" order="0"/>
@@ -85,7 +85,7 @@
             <task id="78" uid="da496d8db1604977b6ef6fc6979a7d82" name="Exercise 4 Shopping Cart with Products" color="#8cb6ce" meeting="false" start="2026-01-20" duration="1" complete="100" thirdDate="2026-01-20" thirdDate-constraint="0" expand="true"/>
             <task id="79" uid="69b2bcd8c966441a9f2885e96700aec4" name="Exercise 5  Inventory System" color="#8cb6ce" meeting="false" start="2026-01-21" duration="1" complete="100" thirdDate="2026-01-20" thirdDate-constraint="0" expand="true"/>
         </task>
-        <task id="67" uid="dcb526bcf68c4d618338399fd4460c2b" name="Execption Handling &amp; File I_O" color="#8cb6ce" meeting="false" start="2026-01-22" duration="5" complete="78" thirdDate="2026-01-19" thirdDate-constraint="0" expand="true">
+        <task id="67" uid="dcb526bcf68c4d618338399fd4460c2b" name="Execption Handling &amp; File I_O" color="#8cb6ce" meeting="false" start="2026-01-22" duration="5" complete="85" thirdDate="2026-01-19" thirdDate-constraint="0" expand="true">
             <task id="114" uid="43181da5d9e54104a0fb423883d252d7" name="1.0 Exception" meeting="false" start="2026-01-22" duration="1" complete="100" expand="false">
                 <task id="120" uid="defba1a475b4403c80409645c3fbd6ba" name="1.1 Pengenalan Exception" color="#8cb6ce" meeting="false" start="2026-01-22" duration="1" complete="100" thirdDate="2026-01-21" thirdDate-constraint="0" expand="true"/>
                 <task id="121" uid="69d62695226449e79f8855afbabe4929" name="1.2 Try-Catch-Finally" meeting="false" start="2026-01-22" duration="1" complete="100" expand="true"/>
@@ -101,7 +101,7 @@
             <task id="134" uid="5286d761c09b4b9ab1f54e59692dfbe2" name="Mini Project Expense Tracker" color="#8cb6ce" meeting="false" start="2026-01-23" duration="1" complete="100" thirdDate="2026-01-21" thirdDate-constraint="0" expand="true"/>
             <task id="136" uid="aad97124989d484f886d728807623fc2" name="Exercise 1 Kalkulator Aman" color="#8cb6ce" meeting="false" start="2026-01-24" duration="1" complete="100" thirdDate="2026-01-21" thirdDate-constraint="0" expand="true"/>
             <task id="138" uid="f3339553784e460e90871ad2e0faf450" name="Exercise 2 Validator Umur" color="#8cb6ce" meeting="false" start="2026-01-25" duration="1" complete="100" thirdDate="2026-01-21" thirdDate-constraint="0" expand="true"/>
-            <task id="140" uid="cc612a436d2c4820b8d40961c28af083" name="Exercise 3 Penghitung Kata File" color="#8cb6ce" meeting="false" start="2026-01-26" duration="1" complete="0" thirdDate="2026-01-21" thirdDate-constraint="0" expand="true"/>
+            <task id="140" uid="cc612a436d2c4820b8d40961c28af083" name="Exercise 3 Penghitung Kata File" color="#8cb6ce" meeting="false" start="2026-01-26" duration="1" complete="100" thirdDate="2026-01-21" thirdDate-constraint="0" expand="true"/>
             <task id="142" uid="134852844e5b42658dda876d364fa088" name="Exercise 4 Data Siswa Dengan File" color="#8cb6ce" meeting="false" start="2026-01-26" duration="1" complete="0" thirdDate="2026-01-21" thirdDate-constraint="0" expand="true"/>
             <task id="144" uid="c18cdd8361554caa8e386b622b6ae217" name="Exercise 5 Daftar Belanja dengan Persistence" color="#8cb6ce" meeting="false" start="2026-01-26" duration="1" complete="0" thirdDate="2026-01-21" thirdDate-constraint="0" expand="true"/>
         </task>
